@@ -45,7 +45,7 @@ public class Main {
                 break;
 
             default:
-                System.out.println("Incorrect answer");
+                System.out.println("The " + input + " is not valid!");
                 break;
         }
 
