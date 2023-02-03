@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("What age you want?\n [B]Baby / [R]Toddler / [P]Preschooler / [G]Gradescholer / [T]Teen / [Y]Young Adult / [A]Adult / [M]Middle Age Adult / [S]Senior Adult");
+        System.out.println("What age you want?\n [B]Baby / [R]Toddler / [P]Preschooler / [G]Gradescholer / [T]Teen / [Y]Young Adult" +
+                " / [A]Adult / [M]Middle Age Adult / [S]Senior Adult");
         String input = scanner.nextLine().toUpperCase();
 
         switch (input){
